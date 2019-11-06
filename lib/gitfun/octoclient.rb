@@ -15,7 +15,7 @@ module Gitfun
     end
 
     def self.debug_client(options = {})
-      self.new({middleware: stack}.merge(options))
+      self.new({middleware: debug_middleware}.merge(options))
     end
 
   end
