@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require "gitfun"
+
+Gitfun::Cli.new.run if $0 == __FILE__
