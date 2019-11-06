@@ -2,4 +2,4 @@
 
 require "gitfun"
 
-Gitfun::Cli.new.run if $0 == __FILE__
+Gitfun.run! if $0 == __FILE__

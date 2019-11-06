@@ -21,6 +21,8 @@ module Gitfun
         end
       end
 
+      default_command :help
+
       run!
     end
 
